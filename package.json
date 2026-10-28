@@ -1,0 +1,7 @@
+{
+  "name": "college-event-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"start": "node backend/src/server.js", "dev": "node --watch backend/src/server.js"},
+  "dependencies": {"@supabase/supabase-js": "^2.57.0", "dotenv": "^16.4.7", "express": "^4.21.2", "express-rate-limit": "^7.5.0", "helmet": "^8.1.0"}
+}
